@@ -22,5 +22,6 @@ function getRandomHexColor() {
   stop.addEventListener('click', () => {
     stop.disabled = true;
     btn.disabled = false;
-    clearInterval;
-});
+    function stopEvent() {
+      clearInterval(changeColor);
+}});
