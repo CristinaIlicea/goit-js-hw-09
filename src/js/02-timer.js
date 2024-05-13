@@ -23,7 +23,7 @@ btn.disabled = true;
 const todayDate = new Date().getTime();
 let selectedDates = [0];
 var onClose = selectedDates[0];
-const input = document.getElementsByTagName("input");
+const input = document.getElementsByTagName("input")[0];
 
 
 //convert time to ms:
